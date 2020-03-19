@@ -644,8 +644,8 @@ public final class R {
         public static final int notification_template_icon_low_bg = 0x7f070095;
         public static final int notification_tile_bg = 0x7f070096;
         public static final int notify_panel_notification_icon_bg = 0x7f070097;
-        public static final int tooltip_frame_dark = 0x7f070099;
-        public static final int tooltip_frame_light = 0x7f07009a;
+        public static final int tooltip_frame_dark = 0x7f07009d;
+        public static final int tooltip_frame_light = 0x7f07009e;
     }
     public static final class id {
         private id() {}
@@ -788,10 +788,10 @@ public final class R {
         public static final int titleDividerNoCustom = 0x7f080117;
         public static final int title_template = 0x7f080118;
         public static final int topPanel = 0x7f08011a;
-        public static final int unchecked = 0x7f080129;
-        public static final int uniform = 0x7f08012a;
-        public static final int up = 0x7f08012c;
-        public static final int wrap_content = 0x7f080132;
+        public static final int unchecked = 0x7f08012a;
+        public static final int uniform = 0x7f08012b;
+        public static final int up = 0x7f08012d;
+        public static final int wrap_content = 0x7f080133;
     }
     public static final class integer {
         private integer() {}

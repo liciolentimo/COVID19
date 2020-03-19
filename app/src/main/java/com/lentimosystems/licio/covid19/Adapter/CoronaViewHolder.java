@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.lentimosystems.licio.covid19.R;
 
 public class CoronaViewHolder extends RecyclerView.ViewHolder {
-    TextView country,cases,todayCases,deaths,todayDeaths,recovered,critical;
+    TextView country,cases,todayCases,deaths,todayDeaths,recovered,critical,casesPerOneMillion;
 
     public CoronaViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -21,5 +21,6 @@ public class CoronaViewHolder extends RecyclerView.ViewHolder {
         todayDeaths = itemView.findViewById(R.id.txtTodayDeaths);
         recovered = itemView.findViewById(R.id.txtRecovered);
         critical = itemView.findViewById(R.id.txtCritical);
+        casesPerOneMillion = itemView.findViewById(R.id.txtCasesPerOneMil);
     }
 }

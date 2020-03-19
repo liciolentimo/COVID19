@@ -8,11 +8,12 @@ public class CovidModel {
     public Integer todayDeaths;
     public Integer recovered;
     public Integer critical;
+    public Integer casesPerOneMillion;
 
     public CovidModel() {
     }
 
-    public CovidModel(String country, Integer totalCases, Integer todayCases, Integer totalDeaths, Integer todayDeaths, Integer recovered, Integer critical) {
+    public CovidModel(String country, Integer totalCases, Integer todayCases, Integer totalDeaths, Integer todayDeaths, Integer recovered, Integer critical, Integer casesPerOneMillion) {
         this.country = country;
         this.cases = totalCases;
         this.todayCases = todayCases;
@@ -20,6 +21,7 @@ public class CovidModel {
         this.todayDeaths = todayDeaths;
         this.recovered = recovered;
         this.critical = critical;
+        this.casesPerOneMillion = casesPerOneMillion;
     }
 
     public String getCountry() {
@@ -48,6 +50,10 @@ public class CovidModel {
 
     public Integer getCritical() {
         return critical;
+    }
+
+    public Integer getCasesPerOneMillion() {
+        return casesPerOneMillion;
     }
 }
 
