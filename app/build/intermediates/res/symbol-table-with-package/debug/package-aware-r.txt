@@ -23,6 +23,7 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+anim button_animation
 anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
@@ -808,8 +809,12 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gradient_end_color
+color gradient_start_color
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color intro_description_color
+color intro_title_color
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -901,6 +906,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color tab_indicator_gray
 color test_background_state
 color test_background_state_unsupported_case
 color test_mtrl_calendar_day
@@ -908,6 +914,7 @@ color test_mtrl_calendar_day_selected
 color test_surface_state
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1322,6 +1329,7 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_gradient_style
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -1332,6 +1340,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_arrow_forward_black_24dp
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1345,6 +1354,12 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img1
+drawable img2
+drawable img3
+drawable indicator_default
+drawable indicator_selected
+drawable indicator_selector
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1442,6 +1457,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_get_started
+id btn_next
 id buttonPanel
 id cancel_button
 id center
@@ -1498,6 +1515,7 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id guideline
 id hideable
 id home
 id homeAsUp
@@ -1506,6 +1524,9 @@ id icon_group
 id ifRoom
 id image
 id info
+id intro_description
+id intro_img
+id intro_title
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1579,6 +1600,7 @@ id save_non_transition_alpha
 id save_scale_type
 id scale
 id screen
+id screen_viewpager
 id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -1620,6 +1642,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id tab_indicator
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -1651,6 +1674,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_skip
 id txtCases
 id txtCountry
 id txtCritical
@@ -1728,6 +1752,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_intro
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1746,6 +1771,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout layout_card
+layout layout_screen
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
