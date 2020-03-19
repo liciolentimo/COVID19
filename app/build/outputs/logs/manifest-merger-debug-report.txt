@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/23985bb850d32296c3d1463e781dcaca/appcompat-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -34,29 +34,29 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/cache
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:7:5-21:19
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:7:5-24:19
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -79,10 +79,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:13:9-40
-activity#com.lentimosystems.licio.covid19.MainActivity
+activity#com.lentimosystems.licio.covid19.IntroActivity
 ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
@@ -93,6 +93,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.lentimosystems.licio.covid19.MainActivity
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:21:9-23:20
+	android:name
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:21:19-47
 uses-sdk
 INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
