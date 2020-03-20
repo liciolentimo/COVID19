@@ -14,6 +14,6 @@
     <item
         android:title="Learn"
         android:id="@+id/learn"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_school_black_24dp"
         app:cnb_textColor="#fff"/>
 </menu>

@@ -10,7 +10,7 @@ Onboarding Screen 1             |  Onboarding Screen 2
 
 Onboarding Screen 3            |  Main Screen
 :-------------------------:|:-------------------------:
-![Onboarding Screen 3](https://github.com/liciolentimo/COVID19/blob/master/app/src/main/res/drawable/Screenshot_2020-03-19-13-18-26.png)  |  ![Main Screen](https://github.com/liciolentimo/COVID19/blob/master/app/src/main/res/drawable/screen5.png)
+![Onboarding Screen 3](https://github.com/liciolentimo/COVID19/blob/master/app/src/main/res/drawable/Screenshot_2020-03-19-13-18-26.png)  |  ![Main Screen](https://github.com/liciolentimo/COVID19/blob/master/app/src/main/res/drawable/screen6.png)
 
 [Download APK](https://github.com/liciolentimo/COVID19/raw/master/app/build/outputs/apk/debug/app-debug.apk)
 

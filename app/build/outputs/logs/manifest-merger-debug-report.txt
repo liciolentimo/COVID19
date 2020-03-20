@@ -7,6 +7,8 @@ INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/23985bb850d32296c3d1463e781dcaca/appcompat-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.ismaeldivita.chipnavigation:chip-navigation-bar:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/58384405e12b29c5e10c13ca4cc4dd43/chip-navigation-bar-1.2.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.jakewharton:butterknife:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4db959bb99a793b29fc9e6cd81c48f85/butterknife-10.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/licio/.gradle/caches/transforms-2/files-2.1/d4179cdc465f7a9cce44fb6bd73017c6/rxandroid-2.0.1/AndroidManifest.xml:15:1-21:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /home/licio/.gradle/caches/transforms-2/files-2.1/2458ffe84563330f79dae848520641c3/viewpager2-1.0.0-beta02/AndroidManifest.xml:17:1-24:12
@@ -25,12 +27,12 @@ MERGED from [androidx.customview:customview:1.0.0] /home/licio/.gradle/caches/tr
 MERGED from [androidx.loader:loader:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/8cada9cdec84397b5d04eb437a75c6bc/activity-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0-rc02] /home/licio/.gradle/caches/transforms-2/files-2.1/4b00a5cea508bc0111ac780bd1a027fb/core-1.1.0-rc02/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/d89547e571bac2268dc1fd8defe0672d/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/2bcd0d3f0bb9dc478bf784c5d5507fed/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/952973ffad79616f65f3aa2a21713ebf/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/c2cf62b56112d9a1d40c934a783bcca3/savedstate-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -107,6 +109,10 @@ MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /home/licio/.gradle/caches
 MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/23985bb850d32296c3d1463e781dcaca/appcompat-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.ismaeldivita.chipnavigation:chip-navigation-bar:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/58384405e12b29c5e10c13ca4cc4dd43/chip-navigation-bar-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ismaeldivita.chipnavigation:chip-navigation-bar:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/58384405e12b29c5e10c13ca4cc4dd43/chip-navigation-bar-1.2.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton:butterknife:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4db959bb99a793b29fc9e6cd81c48f85/butterknife-10.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4db959bb99a793b29fc9e6cd81c48f85/butterknife-10.0.0/AndroidManifest.xml:5:5-44
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/licio/.gradle/caches/transforms-2/files-2.1/d4179cdc465f7a9cce44fb6bd73017c6/rxandroid-2.0.1/AndroidManifest.xml:19:5-43
@@ -143,6 +149,8 @@ MERGED from [androidx.activity:activity:1.0.0-rc01] /home/licio/.gradle/caches/t
 MERGED from [androidx.activity:activity:1.0.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/8cada9cdec84397b5d04eb437a75c6bc/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0-rc02] /home/licio/.gradle/caches/transforms-2/files-2.1/4b00a5cea508bc0111ac780bd1a027fb/core-1.1.0-rc02/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0-rc02] /home/licio/.gradle/caches/transforms-2/files-2.1/4b00a5cea508bc0111ac780bd1a027fb/core-1.1.0-rc02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/d89547e571bac2268dc1fd8defe0672d/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
@@ -153,8 +161,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /home/licio/.gra
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/952973ffad79616f65f3aa2a21713ebf/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/c2cf62b56112d9a1d40c934a783bcca3/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /home/licio/.gradle/caches/transforms-2/files-2.1/c2cf62b56112d9a1d40c934a783bcca3/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44

@@ -199,6 +199,20 @@ attr closeIconStartPadding
 attr closeIconTint
 attr closeIconVisible
 attr closeItemLayout
+attr cnb_addBottomInset
+attr cnb_addLeftInset
+attr cnb_addRightInset
+attr cnb_addTopInset
+attr cnb_backgroundColor
+attr cnb_badgeColor
+attr cnb_disabledColor
+attr cnb_iconColor
+attr cnb_iconTintMode
+attr cnb_menuResource
+attr cnb_minExpandedWidth
+attr cnb_orientationMode
+attr cnb_textColor
+attr cnb_unselectedColor
 attr collapseContentDescription
 attr collapseIcon
 attr collapsedTitleGravity
@@ -760,6 +774,8 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color cnb_default_badge_color
+color cnb_default_unselected_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -998,6 +1014,14 @@ dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
+dimen cnb_badge_size
+dimen cnb_badge_size_numberless
+dimen cnb_badge_stroke_width
+dimen cnb_badge_text_size
+dimen cnb_double_space
+dimen cnb_icon_size
+dimen cnb_medium_space
+dimen cnb_space
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -1334,6 +1358,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable bubble
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1344,6 +1369,8 @@ drawable ic_arrow_forward_black_24dp
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
+drawable ic_home_black_24dp
+drawable ic_info_black_24dp
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
@@ -1354,6 +1381,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_school_black_24dp
 drawable img1
 drawable img2
 drawable img3
@@ -1386,6 +1414,7 @@ drawable screen1
 drawable screen2
 drawable screen3
 drawable screen4
+drawable screen5
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1465,6 +1494,9 @@ id btn_get_started
 id btn_next
 id buttonPanel
 id cancel_button
+id cbn_item_internal_container
+id cbn_item_notification_count
+id cbn_item_title
 id center
 id center_horizontal
 id center_vertical
@@ -1477,6 +1509,7 @@ id chronometer
 id clear_text
 id clip_horizontal
 id clip_vertical
+id cnb_item_icon
 id collapseActionView
 id confirm_button
 id container
@@ -1498,6 +1531,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id discover
 id dropdown_menu
 id edit_query
 id end
@@ -1523,6 +1557,7 @@ id guideline
 id hideable
 id home
 id homeAsUp
+id horizontal
 id icon
 id icon_group
 id ifRoom
@@ -1536,6 +1571,7 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
+id learn
 id left
 id line1
 id line3
@@ -1692,6 +1728,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id view_offset_helper
 id visible
 id withText
@@ -1759,6 +1796,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_intro
 layout activity_main
+layout cnb_horizontal_menu_item
+layout cnb_vertical_menu_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1826,6 +1865,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu menu_bottom
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -2598,6 +2638,9 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
+styleable ChipMenu cnb_badgeColor cnb_disabledColor cnb_unselectedColor
+styleable ChipMenuItem android_icon android_enabled android_id android_title cnb_backgroundColor cnb_iconColor cnb_iconTintMode cnb_textColor
+styleable ChipNavigationBar cnb_addBottomInset cnb_addLeftInset cnb_addRightInset cnb_addTopInset cnb_menuResource cnb_minExpandedWidth cnb_orientationMode
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
