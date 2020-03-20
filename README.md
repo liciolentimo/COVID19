@@ -1,4 +1,5 @@
 # COVID-19 
+![COVID-19](https://github.com/JacksiroKe/Covid-19/blob/master/covid.png "CoronaVirus Disease 2019 Banner")
 
 ## Screens
 
@@ -14,3 +15,5 @@ Onboarding Screen 3            |  Main Screen
 ## Libraries
  - Retrofit
  - RxJava2
+ 
+ # \[ 🚧👷‍♀️⛏ Work in Progress 🔧️👷🚧 \]
