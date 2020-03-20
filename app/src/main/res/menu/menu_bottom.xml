@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:cnb_textColor="#fff"/>
+    <item
+        android:title="Discover"
+        android:id="@+id/discover"
+        android:icon="@drawable/ic_info_black_24dp"
+        app:cnb_textColor="#fff"/>
+    <item
+        android:title="Learn"
+        android:id="@+id/learn"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:cnb_textColor="#fff"/>
+</menu>

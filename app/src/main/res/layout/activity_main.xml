@@ -11,4 +11,13 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@drawable/bubble"
+        android:elevation="16dp"
+        android:padding="8dp"
+        app:cnb_menuResource="@menu/menu_bottom"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>
