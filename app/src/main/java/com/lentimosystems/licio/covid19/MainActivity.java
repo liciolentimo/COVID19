@@ -9,6 +9,7 @@ import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -52,11 +53,14 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(int i) {
                 switch (i){
                     case R.id.discover:
-                        MotionToast.Companion.createToast(MainActivity.this,"Coming Soon!",
-                                MotionToast.Companion.getTOAST_INFO(),
-                                MotionToast.Companion.getGRAVITY_CENTER(),
-                                MotionToast.Companion.getLONG_DURATION(),
-                                ResourcesCompat.getFont(MainActivity.this,R.font.helvetica_regular));
+                        Intent intent = new Intent(MainActivity.this,DiscoverActivity.class);
+                        startActivity(intent);
+                        break;
+//                        MotionToast.Companion.createToast(MainActivity.this,"Coming Soon!",
+//                                MotionToast.Companion.getTOAST_INFO(),
+//                                MotionToast.Companion.getGRAVITY_CENTER(),
+//                                MotionToast.Companion.getLONG_DURATION(),
+//                                ResourcesCompat.getFont(MainActivity.this,R.font.helvetica_regular));
                     case R.id.learn:
                         MotionToast.Companion.createToast(MainActivity.this,"Coming Soon!",
                                 MotionToast.Companion.getTOAST_INFO(),
