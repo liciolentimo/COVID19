@@ -19,7 +19,7 @@
 14        android:allowBackup="true"
 14-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0-rc02] /home/licio/.gradle/caches/transforms-2/files-2.1/4b00a5cea508bc0111ac780bd1a027fb/core-1.1.0-rc02/AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/2c4911487622891b7d804fc82995f4ba/core-1.2.0/AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
 17-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:9:9-43

@@ -31,6 +31,7 @@ anim design_snackbar_out
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim pulse
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -779,6 +780,9 @@ color cnb_default_unselected_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color dark_bg_color
+color delete_bg_color
+color delete_color
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -821,6 +825,8 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color error_bg_color
+color error_color
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -829,6 +835,8 @@ color gradient_end_color
 color gradient_start_color
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color info_bg_color
+color info_color
 color intro_description_color
 color intro_title_color
 color material_blue_grey_800
@@ -916,6 +924,9 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color success_bg_color
+color success_color
+color success_title_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -930,6 +941,8 @@ color test_mtrl_calendar_day_selected
 color test_surface_state
 color tooltip_background_dark
 color tooltip_background_light
+color warning_bg_color
+color warning_color
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -1359,6 +1372,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bubble
+drawable color_view_background
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1367,10 +1381,16 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_forward_black_24dp
 drawable ic_calendar_black_24dp
+drawable ic_check_green
 drawable ic_clear_black_24dp
+drawable ic_cloud_yellow
+drawable ic_delete_
 drawable ic_edit_black_24dp
+drawable ic_error_
 drawable ic_home_black_24dp
 drawable ic_info_black_24dp
+drawable ic_info_blue
+drawable ic_info_yellow
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
@@ -1381,7 +1401,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_no_internet
 drawable ic_school_black_24dp
+drawable ic_warning_yellow
 drawable img1
 drawable img2
 drawable img3
@@ -1415,9 +1437,13 @@ drawable screen2
 drawable screen3
 drawable screen4
 drawable screen5
+drawable screen6
 drawable test_custom_background
+drawable toast_round_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font helvetica_regular
+font helveticabold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1490,10 +1516,12 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bottom_nav
 id btn_get_started
 id btn_next
 id buttonPanel
 id cancel_button
+id cards
 id cbn_item_internal_container
 id cbn_item_notification_count
 id cbn_item_title
@@ -1511,6 +1539,11 @@ id clip_horizontal
 id clip_vertical
 id cnb_item_icon
 id collapseActionView
+id colorView
+id color_toast_description
+id color_toast_image
+id color_toast_text
+id color_toast_view
 id confirm_button
 id container
 id content
@@ -1518,6 +1551,9 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id custom_toast_description
+id custom_toast_image
+id custom_toast_text
 id cut
 id date_picker_actions
 id decor_content_parent
@@ -1587,6 +1623,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id motion_toast_view
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
 id mtrl_calendar_frame
@@ -1814,8 +1851,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout full_color_toast
 layout layout_card
 layout layout_screen
+layout motion_toast
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
