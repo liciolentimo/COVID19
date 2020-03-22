@@ -2072,6 +2072,10 @@
         "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/res/drawable/mtrl_dropdown_arrow.xml"
     },
     {
+        "merged": "/home/licio/Documents/COVID19/app/build/intermediates/res/merged/debug/layout_activity_discover.xml.flat",
+        "source": "/home/licio/Documents/COVID19/app/src/main/res/layout/activity_discover.xml"
+    },
+    {
         "merged": "/home/licio/Documents/COVID19/app/build/intermediates/res/merged/debug/animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
         "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/res/animator/mtrl_btn_unelevated_state_list_anim.xml"
     },

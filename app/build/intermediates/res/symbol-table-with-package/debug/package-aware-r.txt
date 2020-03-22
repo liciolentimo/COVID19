@@ -1718,6 +1718,7 @@ id start
 id stretch
 id submenuarrow
 id submit_area
+id swipeRefresh
 id tabMode
 id tab_indicator
 id tag_accessibility_actions
@@ -1831,6 +1832,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_discover
 layout activity_intro
 layout activity_main
 layout cnb_horizontal_menu_item

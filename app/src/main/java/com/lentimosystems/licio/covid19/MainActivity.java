@@ -8,6 +8,7 @@ import androidx.cardview.widget.CardView;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -40,11 +41,23 @@ public class MainActivity extends AppCompatActivity {
     ChipNavigationBar chipNavigationBar;
     CardView cards;
     Menu menu;
+    SwipeRefreshLayout refreshLayout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        refreshLayout = findViewById(R.id.swipeRefresh);
+
+        refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+
+                refreshLayout.setRefreshing(false);
+            }
+        });
 
         chipNavigationBar = findViewById(R.id.bottom_nav);
         chipNavigationBar.setItemSelected(R.id.home,true);
@@ -65,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                         MotionToast.Companion.createToast(MainActivity.this,"Coming Soon!",
                                 MotionToast.Companion.getTOAST_INFO(),
                                 MotionToast.Companion.getGRAVITY_CENTER(),
-                                MotionToast.Companion.getLONG_DURATION(),
+                                MotionToast.Companion.getSHORT_DURATION(),
                                 ResourcesCompat.getFont(MainActivity.this,R.font.helvetica_regular));
 
                 }
