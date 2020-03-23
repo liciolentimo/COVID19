@@ -1,13 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/ced0e3c2b6388ef628cd295e03da3197/navigation-ui-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.Spikeysanju:MotionToast:1.3.1] /home/licio/.gradle/caches/transforms-2/files-2.1/8d88d63b6866a770fa6868c031b1ce5c/MotionToast-1.3.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/2a746363e3154b6baf79c81f7caf59e1/navigation-fragment-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.ismaeldivita.chipnavigation:chip-navigation-bar:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/58384405e12b29c5e10c13ca4cc4dd43/chip-navigation-bar-1.2.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.core:core-ktx:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4302472cfc836e119d82c88a1a8ea994/core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
@@ -15,43 +19,53 @@ MERGED from [com.jakewharton:butterknife:10.0.0] /home/licio/.gradle/caches/tran
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/licio/.gradle/caches/transforms-2/files-2.1/d4179cdc465f7a9cce44fb6bd73017c6/rxandroid-2.0.1/AndroidManifest.xml:15:1-21:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /home/licio/.gradle/caches/transforms-2/files-2.1/2458ffe84563330f79dae848520641c3/viewpager2-1.0.0-beta02/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] /home/licio/.gradle/caches/transforms-2/files-2.1/4e8bcf1b2da50aed0423463b789b2232/recyclerview-1.1.0-beta03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/licio/.gradle/caches/transforms-2/files-2.1/b15fee8d6eb36fb24e69342971f2659a/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3e7c35ae918dce4236914b461e3f22e5/transition-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /home/licio/.gradle/caches/transforms-2/files-2.1/f5d66b7eae96122eab170c7a9e378f27/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.0.1] /home/licio/.gradle/caches/transforms-2/files-2.1/d5e538a4cea89ded941d1fd55df7aafc/transition-1.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/016fee997417154ac72665b1a8890a76/butterknife-runtime-10.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/5edfeec93fef470a098f4beafa06f9ad/navigation-runtime-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/7efd053ec182f59a1ba1645b4730ecc7/navigation-common-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/016fee997417154ac72665b1a8890a76/butterknife-runtime-10.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/2c4911487622891b7d804fc82995f4ba/core-1.2.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fe1ff36e0737aaaf9033a5bbe75f69a0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:2:11-69
@@ -60,7 +74,7 @@ ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:7:5-23:19
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:7:5-26:19
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -83,32 +97,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/licio
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.lentimosystems.licio.covid19.TriviaActivity
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:9-16:55
+	android:theme
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:13-45
+	android:name
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:16:13-43
 activity#com.lentimosystems.licio.covid19.DiscoverActivity
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:9-63
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:9-54
 	android:name
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:19-51
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:19-51
 activity#com.lentimosystems.licio.covid19.IntroActivity
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:19-48
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:27-74
 activity#com.lentimosystems.licio.covid19.MainActivity
-ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:9-59
+ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:19-47
+		ADDED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:19-47
 uses-sdk
 INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/ced0e3c2b6388ef628cd295e03da3197/navigation-ui-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/ced0e3c2b6388ef628cd295e03da3197/navigation-ui-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0-alpha09] /home/licio/.gradle/caches/transforms-2/files-2.1/bb28b9f73851b015c728313811a41484/material-1.1.0-alpha09/AndroidManifest.xml:20:5-44
 MERGED from [com.github.Spikeysanju:MotionToast:1.3.1] /home/licio/.gradle/caches/transforms-2/files-2.1/8d88d63b6866a770fa6868c031b1ce5c/MotionToast-1.3.1/AndroidManifest.xml:7:5-9:41
@@ -117,6 +139,12 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] /home/licio/.gradle/caches/tran
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/licio/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/2a746363e3154b6baf79c81f7caf59e1/navigation-fragment-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/2a746363e3154b6baf79c81f7caf59e1/navigation-fragment-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.ismaeldivita.chipnavigation:chip-navigation-bar:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/58384405e12b29c5e10c13ca4cc4dd43/chip-navigation-bar-1.2.0/AndroidManifest.xml:7:5-9:41
@@ -131,52 +159,72 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /home/licio/.gradle/ca
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /home/licio/.gradle/caches/transforms-2/files-2.1/2458ffe84563330f79dae848520641c3/viewpager2-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] /home/licio/.gradle/caches/transforms-2/files-2.1/4e8bcf1b2da50aed0423463b789b2232/recyclerview-1.1.0-beta03/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] /home/licio/.gradle/caches/transforms-2/files-2.1/4e8bcf1b2da50aed0423463b789b2232/recyclerview-1.1.0-beta03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.1] /home/licio/.gradle/caches/transforms-2/files-2.1/b15fee8d6eb36fb24e69342971f2659a/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/licio/.gradle/caches/transforms-2/files-2.1/b15fee8d6eb36fb24e69342971f2659a/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3e7c35ae918dce4236914b461e3f22e5/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3e7c35ae918dce4236914b461e3f22e5/transition-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /home/licio/.gradle/caches/transforms-2/files-2.1/f5d66b7eae96122eab170c7a9e378f27/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /home/licio/.gradle/caches/transforms-2/files-2.1/f5d66b7eae96122eab170c7a9e378f27/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.0.1] /home/licio/.gradle/caches/transforms-2/files-2.1/d5e538a4cea89ded941d1fd55df7aafc/transition-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.1] /home/licio/.gradle/caches/transforms-2/files-2.1/d5e538a4cea89ded941d1fd55df7aafc/transition-1.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/016fee997417154ac72665b1a8890a76/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/016fee997417154ac72665b1a8890a76/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/5edfeec93fef470a098f4beafa06f9ad/navigation-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/5edfeec93fef470a098f4beafa06f9ad/navigation-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/7efd053ec182f59a1ba1645b4730ecc7/navigation-common-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0-alpha01] /home/licio/.gradle/caches/transforms-2/files-2.1/7efd053ec182f59a1ba1645b4730ecc7/navigation-common-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/016fee997417154ac72665b1a8890a76/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/016fee997417154ac72665b1a8890a76/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/2c4911487622891b7d804fc82995f4ba/core-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/2c4911487622891b7d804fc82995f4ba/core-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fe1ff36e0737aaaf9033a5bbe75f69a0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fe1ff36e0737aaaf9033a5bbe75f69a0/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 INJECTED from /home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

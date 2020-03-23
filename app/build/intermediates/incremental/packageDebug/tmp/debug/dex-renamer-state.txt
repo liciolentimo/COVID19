@@ -1,4 +1,4 @@
-#Sun Mar 22 21:58:13 EAT 2020
+#Mon Mar 23 19:37:17 EAT 2020
 base.0=/home/licio/Documents/COVID19/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

@@ -9,11 +9,11 @@
     <item
         android:title="Discover"
         android:id="@+id/discover"
-        android:icon="@drawable/ic_info_black_24dp"
+        android:icon="@drawable/ic_search_black_24dp"
         app:cnb_textColor="#fff"/>
     <item
-        android:title="Learn"
-        android:id="@+id/learn"
-        android:icon="@drawable/ic_school_black_24dp"
+        android:title="Trivia"
+        android:id="@+id/trivia"
+        android:icon="@drawable/ic_question_answer_black_24dp"
         app:cnb_textColor="#fff"/>
 </menu>

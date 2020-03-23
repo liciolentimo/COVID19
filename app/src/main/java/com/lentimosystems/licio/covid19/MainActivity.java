@@ -76,12 +76,14 @@ public class MainActivity extends AppCompatActivity {
 //                                MotionToast.Companion.getGRAVITY_CENTER(),
 //                                MotionToast.Companion.getLONG_DURATION(),
 //                                ResourcesCompat.getFont(MainActivity.this,R.font.helvetica_regular));
-                    case R.id.learn:
-                        MotionToast.Companion.createToast(MainActivity.this,"Coming Soon!",
-                                MotionToast.Companion.getTOAST_INFO(),
-                                MotionToast.Companion.getGRAVITY_CENTER(),
-                                MotionToast.Companion.getSHORT_DURATION(),
-                                ResourcesCompat.getFont(MainActivity.this,R.font.helvetica_regular));
+                    case R.id.trivia:
+                        Intent triviaIntent = new Intent(MainActivity.this,TriviaActivity.class);
+                        startActivity(triviaIntent);
+//                        MotionToast.Companion.createToast(MainActivity.this,"Coming Soon!",
+//                                MotionToast.Companion.getTOAST_INFO(),
+//                                MotionToast.Companion.getGRAVITY_CENTER(),
+//                                MotionToast.Companion.getSHORT_DURATION(),
+//                                ResourcesCompat.getFont(MainActivity.this,R.font.helvetica_regular));
 
                 }
 

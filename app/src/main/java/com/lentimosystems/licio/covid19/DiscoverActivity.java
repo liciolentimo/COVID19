@@ -32,14 +32,16 @@ public class DiscoverActivity extends AppCompatActivity {
                         MotionToast.Companion.createToast(DiscoverActivity.this, "Coming Soon!",
                                 MotionToast.Companion.getTOAST_INFO(),
                                 MotionToast.Companion.getGRAVITY_CENTER(),
-                                MotionToast.Companion.getLONG_DURATION(),
+                                MotionToast.Companion.getSHORT_DURATION(),
                                 ResourcesCompat.getFont(DiscoverActivity.this, R.font.helvetica_regular));
-                    case R.id.learn:
-                        MotionToast.Companion.createToast(DiscoverActivity.this, "Coming Soon!",
-                                MotionToast.Companion.getTOAST_INFO(),
-                                MotionToast.Companion.getGRAVITY_CENTER(),
-                                MotionToast.Companion.getLONG_DURATION(),
-                                ResourcesCompat.getFont(DiscoverActivity.this, R.font.helvetica_regular));
+                    case R.id.trivia:
+                        Intent triviaIntent = new Intent(DiscoverActivity.this,TriviaActivity.class);
+                        startActivity(triviaIntent);
+//                        MotionToast.Companion.createToast(DiscoverActivity.this, "Coming Soon!",
+//                                MotionToast.Companion.getTOAST_INFO(),
+//                                MotionToast.Companion.getGRAVITY_CENTER(),
+//                                MotionToast.Companion.getSHORT_DURATION(),
+//                                ResourcesCompat.getFont(DiscoverActivity.this, R.font.helvetica_regular));
                 }
             }
         });

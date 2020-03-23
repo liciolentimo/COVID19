@@ -15,7 +15,7 @@
 11-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:7:5-23:19
+13-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:7:5-26:19
 14        android:allowBackup="true"
 14-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -31,26 +31,32 @@
 20-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:12:9-35
 21        android:theme="@style/AppTheme" >
 21-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:13:9-40
-22        <activity android:name="com.lentimosystems.licio.covid19.DiscoverActivity" />
-22-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:9-63
-22-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:19-51
-23        <activity android:name="com.lentimosystems.licio.covid19.IntroActivity" >
-23-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:9-21:20
-23-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:19-48
-24            <intent-filter>
-24-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:16:13-20:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:17-69
-25-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:17-77
-27-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity android:name="com.lentimosystems.licio.covid19.MainActivity" />
-30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:9-59
-30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:19-47
-31    </application>
-32
-33</manifest>
+22        <activity
+22-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:9-16:55
+23            android:name="com.lentimosystems.licio.covid19.TriviaActivity"
+23-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:16:13-43
+24            android:theme="@style/AppTheme2" />
+24-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:13-45
+25        <activity android:name="com.lentimosystems.licio.covid19.DiscoverActivity" />
+25-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:9-54
+25-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:19-51
+26        <activity android:name="com.lentimosystems.licio.covid19.IntroActivity" >
+26-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:9-24:20
+26-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:19-48
+27            <intent-filter>
+27-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:17-69
+28-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:17-77
+30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.lentimosystems.licio.covid19.MainActivity" />
+33-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:9-50
+33-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:19-47
+34    </application>
+35
+36</manifest>
