@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "418201218982",
+    "firebase_url": "https://wakili-7034b.firebaseio.com",
+    "project_id": "wakili-7034b",
+    "storage_bucket": "wakili-7034b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418201218982:android:94f8335dc9daeed4b9a967",
+        "android_client_info": {
+          "package_name": "com.lentimosystems.licio.covid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418201218982-no2pccrvec9a1qdtsc7kmtcc0f9et30b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lentimosystems.licio.covid19",
+            "certificate_hash": "16f2884f8bbe02b94f0d44f04843d5e028428d7d"
+          }
+        },
+        {
+          "client_id": "418201218982-1l30bq4llhd0ub392p0as9j86dltuib2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4TWG76tDS3Tes_LzRMBxw4HgYwZPb0Ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418201218982-1l30bq4llhd0ub392p0as9j86dltuib2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
