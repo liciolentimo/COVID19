@@ -10,10 +10,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LayoutAnimationController;
 import android.widget.TextView;
 
 import com.ismaeldivita.chipnavigation.ChipNavigationBar;
@@ -39,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recycler;
     CompositeDisposable compositeDisposable = new CompositeDisposable();
     ChipNavigationBar chipNavigationBar;
-    CardView cards;
-    Menu menu;
+
     SwipeRefreshLayout refreshLayout;
 
 
@@ -94,8 +96,26 @@ public class MainActivity extends AppCompatActivity {
         recycler.setHasFixedSize(true);
         recycler.setLayoutManager(new LinearLayoutManager(this));
 
-        fetchData();
+        int resId = R.anim.layout_animation_fall_down;
 
+        LayoutAnimationController animationController = AnimationUtils.loadLayoutAnimation(MainActivity.this,resId);
+        recycler.setLayoutAnimation(animationController);
+
+
+        fetchData();
+        //runLayoutAnimation(recycler);
+
+    }
+
+
+    private void runLayoutAnimation(final RecyclerView recyclerView) {
+        final Context context = recyclerView.getContext();
+        final LayoutAnimationController controller =
+                AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation_fall_down);
+
+        recyclerView.setLayoutAnimation(controller);
+        recyclerView.getAdapter().notifyDataSetChanged();
+        recyclerView.scheduleLayoutAnimation();
     }
 
 
