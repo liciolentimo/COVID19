@@ -14,6 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ProgressBar;
 
 import com.lentimosystems.licio.covid19.Adapter.QuizListAdapter;
 import com.lentimosystems.licio.covid19.Adapter.QuizListViewModel;
@@ -29,6 +32,9 @@ public class ListFragment extends Fragment {
     private RecyclerView listView;
     private QuizListViewModel quizListViewModel;
     private QuizListAdapter adapter;
+    private ProgressBar listProgress;
+    private Animation fadeInAnim;
+    private Animation fadeOutAnim;
 
 
     public ListFragment() {
@@ -49,10 +55,14 @@ public class ListFragment extends Fragment {
 
         listView = view.findViewById(R.id.list_view);
         adapter = new QuizListAdapter();
+        listProgress = view.findViewById(R.id.list_progress);
 
         listView.setLayoutManager(new LinearLayoutManager(getContext()));
         listView.setHasFixedSize(true);
         listView.setAdapter(adapter);
+
+        fadeInAnim = AnimationUtils.loadAnimation(getContext(), R.anim.fade_in);
+        fadeOutAnim = AnimationUtils.loadAnimation(getContext(), R.anim.fade_out);
 
     }
     @Override
@@ -63,6 +73,9 @@ public class ListFragment extends Fragment {
         quizListViewModel.getQuizListModelData().observe(getViewLifecycleOwner(), new Observer<List<QuizListModel>>() {
             @Override
             public void onChanged(List<QuizListModel> quizListModels) {
+                //Load RecyclerView
+                listView.startAnimation(fadeInAnim);
+                listProgress.startAnimation(fadeOutAnim);
                 adapter.setQuizListModels(quizListModels);
                 adapter.notifyDataSetChanged();
             }
