@@ -19,5 +19,6 @@ Onboarding Screen 3            |  Main Screen
 ## Libraries
  - Retrofit
  - RxJava2
+ - Firebase Cloud Firestore
  
  # \[ 🚧👷‍♀️⛏ Work in Progress 🔧️👷🚧 \]
