@@ -7,16 +7,36 @@
     android:layout_margin="16dp"
     android:background="@drawable/dark_bg">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/quiz_card"
+        app:cardCornerRadius="6dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
     <ImageView
         android:id="@+id/list_image"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/placeholder_image" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/image_cover_view"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/image_cover"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/quiz_card"
+        app:layout_constraintEnd_toEndOf="@id/quiz_card"
+        app:layout_constraintStart_toStartOf="@id/quiz_card" />
 
     <TextView
         android:id="@+id/list_title"
@@ -28,7 +48,7 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/list_image" />
+        app:layout_constraintTop_toBottomOf="@+id/quiz_card" />
 
     <TextView
         android:id="@+id/list_desc"

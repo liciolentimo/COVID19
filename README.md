@@ -17,8 +17,10 @@ Onboarding Screen 3            |  Main Screen
 
 
 ## Libraries
- - Retrofit
+ - Retrofit2
  - RxJava2
+ - RxAndroid
  - Firebase Cloud Firestore
+ - Glide
  
  # \[ 🚧👷‍♀️⛏ Work in Progress 🔧️👷🚧 \]
