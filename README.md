@@ -22,5 +22,6 @@ Onboarding Screen 3            |  Main Screen
  - RxAndroid
  - Firebase Cloud Firestore
  - Glide
+ - Jetpack
  
  # \[ 🚧👷‍♀️⛏ Work in Progress 🔧️👷🚧 \]

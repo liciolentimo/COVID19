@@ -8,6 +8,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -28,13 +30,14 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ListFragment extends Fragment {
+public class ListFragment extends Fragment implements QuizListAdapter.OnQuizListItemClicked {
     private RecyclerView listView;
     private QuizListViewModel quizListViewModel;
     private QuizListAdapter adapter;
     private ProgressBar listProgress;
     private Animation fadeInAnim;
     private Animation fadeOutAnim;
+    private NavController navController;
 
 
     public ListFragment() {
@@ -53,8 +56,10 @@ public class ListFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        navController = Navigation.findNavController(view);
+
         listView = view.findViewById(R.id.list_view);
-        adapter = new QuizListAdapter();
+        adapter = new QuizListAdapter(this);
         listProgress = view.findViewById(R.id.list_progress);
 
         listView.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -82,4 +87,10 @@ public class ListFragment extends Fragment {
         });
     }
 
+    @Override
+    public void onItemClicked(int position) {
+        ListFragmentDirections.ActionListFragmentToDetailsFragment action = ListFragmentDirections.actionListFragmentToDetailsFragment();
+        action.setPosition(position);
+        navController.navigate(action);
+    }
 }
