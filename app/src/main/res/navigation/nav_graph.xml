@@ -57,9 +57,13 @@
             android:id="@+id/action_quizFragment_to_resultFragment"
             app:destination="@id/resultFragment" />
         <argument
-            android:name="position"
-            app:argType="integer"
-            android:defaultValue="0" />
+            android:name="quizId"
+            app:argType="string"
+            android:defaultValue="null" />
+        <argument
+            android:name="totalQuestions"
+            app:argType="long"
+            android:defaultValue="0L" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"

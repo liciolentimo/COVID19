@@ -204,7 +204,7 @@ public class IntroActivity extends AppCompatActivity {
         btnGetStarted.setVisibility(View.VISIBLE);
         tvSkip.setVisibility(View.INVISIBLE);
         tabIndicator.setVisibility(View.INVISIBLE);
-        // TODO : ADD an animation the getstarted button
+
         // setup animation
         btnGetStarted.setAnimation(btnAnim);
 

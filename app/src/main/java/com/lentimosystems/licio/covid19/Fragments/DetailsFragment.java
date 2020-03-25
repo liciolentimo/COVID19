@@ -40,6 +40,8 @@ public class DetailsFragment extends Fragment implements View.OnClickListener {
     private TextView detailsQuestions;
 
     private Button detailsStartBtn;
+    private String quizId;
+    private long totalQuestions = 0;
 
     public DetailsFragment() {
         // Required empty public constructor
@@ -90,6 +92,8 @@ public class DetailsFragment extends Fragment implements View.OnClickListener {
                 detailsDesc.setText(quizListModels.get(position).getDesc());
                 detailsDiff.setText(quizListModels.get(position).getQuestionType());
                 detailsQuestions.setText(quizListModels.get(position).getQuestions() + "");
+
+                quizId = quizListModels.get(position).getQuiz_id();
             }
         });
     }
@@ -99,7 +103,8 @@ public class DetailsFragment extends Fragment implements View.OnClickListener {
         switch (view.getId()) {
             case R.id.details_start_btn:
                 DetailsFragmentDirections.ActionDetailsFragmentToQuizFragment action = DetailsFragmentDirections.actionDetailsFragmentToQuizFragment();
-                action.setPosition(position);
+                action.setQuizId(quizId);
+                action.setTotalQuestions(totalQuestions);
                 navController.navigate(action);
                 break;
         }
