@@ -60,10 +60,13 @@
 
     <ProgressBar
         android:id="@+id/quiz_question_progress"
-        style="?android:attr/progressBarStyle"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:layout_marginTop="32dp"
+        android:progress="100"
+        android:progressDrawable="@drawable/circular_progress"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/quiz_question_number"
         app:layout_constraintEnd_toEndOf="@+id/quiz_title"
         app:layout_constraintStart_toStartOf="@+id/quiz_close_btn"
@@ -146,22 +149,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/quiz_option_two" />
-    <Button
-        android:id="@+id/quiz_option_four"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/outline_light_btn_bg"
-        android:padding="12dp"
-        android:text="Option Button"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quiz_option_three" />
 
     <TextView
         android:id="@+id/quiz_question_feedback"
