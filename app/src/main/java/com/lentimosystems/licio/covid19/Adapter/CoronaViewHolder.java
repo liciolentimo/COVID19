@@ -14,7 +14,7 @@ import com.lentimosystems.licio.covid19.R;
 import www.sanju.motiontoast.MotionToast;
 
 public class CoronaViewHolder extends RecyclerView.ViewHolder  {
-    TextView country,cases,todayCases,deaths,todayDeaths,recovered,critical,casesPerOneMillion;
+    TextView country,cases,todayCases,deaths,todayDeaths,recovered,critical,tests;
 
     private Context context;
 
@@ -28,7 +28,7 @@ public class CoronaViewHolder extends RecyclerView.ViewHolder  {
         todayDeaths = itemView.findViewById(R.id.txtTodayDeaths);
         recovered = itemView.findViewById(R.id.txtRecovered);
         critical = itemView.findViewById(R.id.txtCritical);
-        casesPerOneMillion = itemView.findViewById(R.id.txtCasesPerOneMil);
+        tests = itemView.findViewById(R.id.txtCasesPerOneMil);
 
      
     }

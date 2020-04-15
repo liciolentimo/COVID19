@@ -43,7 +43,7 @@ public class CoronaAdapter extends RecyclerView.Adapter<CoronaViewHolder> {
         holder.todayDeaths.setText("Deaths Today: " + String.valueOf(model.get(position).todayDeaths));
         holder.recovered.setText("Recovered: " + String.valueOf(model.get(position).recovered));
         holder.critical.setText("Critical: " + String.valueOf(model.get(position).critical));
-        holder.casesPerOneMillion.setText("Cases Per One Million: " + String.valueOf(model.get(position).casesPerOneMillion));
+        holder.tests.setText("Tests: " + String.valueOf(model.get(position).tests));
     }
     @Override
     public int getItemCount() {

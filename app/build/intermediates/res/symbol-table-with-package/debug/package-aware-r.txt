@@ -47,6 +47,12 @@ anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
 anim pulse
+anim slide_down
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
+anim slide_up
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -211,6 +217,10 @@ attr chipStrokeWidth
 attr chipStyle
 attr chipSurfaceColor
 attr circleCrop
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -1428,6 +1438,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bubble
+drawable circular_progress
 drawable color_view_background
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1484,6 +1495,7 @@ drawable ic_question_answer_black_24dp
 drawable ic_school_black_24dp
 drawable ic_search_black_24dp
 drawable ic_warning_yellow
+drawable image_cover
 drawable img1
 drawable img2
 drawable img3
@@ -1695,6 +1707,7 @@ id fragment_container
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -1708,6 +1721,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id image_cover_view
 id info
 id intro_description
 id intro_img
@@ -1729,6 +1743,7 @@ id list_difficulty
 id list_image
 id list_item
 id list_page_title
+id list_progress
 id list_title
 id list_view
 id masked
@@ -1789,6 +1804,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id quizFragment
+id quiz_card
 id quiz_close_btn
 id quiz_next_btn
 id quiz_option_one
@@ -2890,6 +2906,7 @@ styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVer
 styleable ChipMenu cnb_badgeColor cnb_disabledColor cnb_unselectedColor
 styleable ChipMenuItem android_icon android_enabled android_id android_title cnb_backgroundColor cnb_iconColor cnb_iconTintMode cnb_textColor
 styleable ChipNavigationBar cnb_addBottomInset cnb_addLeftInset cnb_addRightInset cnb_addTopInset cnb_menuResource cnb_minExpandedWidth cnb_orientationMode
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

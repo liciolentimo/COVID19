@@ -4,7 +4,7 @@
             "outputFile": "/home/licio/Documents/COVID19/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/64abc4de6ea156b8f02ed264d7b57adb/material-1.1.0-alpha09/res/values-v23/values-v23.xml",
+                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/0aba8aff3be8b6ecd0dbff4372235f5c/material-1.1.0-alpha09/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6,9,12,16,19",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/53af1f37d65227eb5bcf361cc28c52ea/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/7532aa5abdd543d396828ff0ff43ae45/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/08acf756127cae99092eba05c2a7248f/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/da55d10f5cce4bedf2b8b0390b88e8ab/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

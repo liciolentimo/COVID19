@@ -17,15 +17,15 @@
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/cbb8d895330175c66f484dbd52da7eda/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:13:5-79
-15-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/cbb8d895330175c66f484dbd52da7eda/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:13:22-76
+15-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e7ce63a5753541def31bebb3528cd940/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:13:5-79
+15-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e7ce63a5753541def31bebb3528cd940/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:13:22-76
 16
 17    <application
 17-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:7:5-26:19
 18        android:allowBackup="true"
 18-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:8:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/19e07ef27262353bfade2175b3cb485a/core-1.2.0/AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a5c6bc057a19040ad9c11f575568963f/core-1.2.0/AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
 21-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:9:9-43
@@ -35,97 +35,107 @@
 23-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:11:9-54
 24        android:supportsRtl="true"
 24-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:12:9-35
-25        android:theme="@style/AppTheme" >
-25-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:13:9-40
-26        <activity
-26-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:9-16:55
-27            android:name="com.lentimosystems.licio.covid19.TriviaActivity"
-27-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:16:13-43
-28            android:theme="@style/AppTheme2" />
-28-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:13-45
-29        <activity android:name="com.lentimosystems.licio.covid19.DiscoverActivity" />
-29-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:9-54
-29-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:19-51
-30        <activity android:name="com.lentimosystems.licio.covid19.IntroActivity" >
-30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:9-24:20
-30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:19-48
-31            <intent-filter>
-31-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:13-23:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:17-69
-32-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:17-77
-34-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.lentimosystems.licio.covid19.MainActivity" />
-37-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:9-50
-37-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:19-47
-38        <activity
-38-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
-39            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-39-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
-40            android:excludeFromRecents="true"
-40-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
-41            android:exported="true"
-41-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
-42            android:launchMode="singleTask"
-42-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
-43            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-43-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
-44            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-44-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
-45
-46        <service
-46-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
-47            android:name="com.google.firebase.components.ComponentDiscoveryService"
-47-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
-48            android:directBootAware="true"
-48-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/24e06bc125a6a09316d44e6a0060ebc7/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-49            android:exported="false" >
-49-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
-50            <meta-data
-50-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
-51                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-51-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
-52                android:value="com.google.firebase.components.ComponentRegistrar" />
-52-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/519bb249cc80507951a4e4dc8a3057bc/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
-53            <meta-data
-53-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/cbb8d895330175c66f484dbd52da7eda/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:20:13-22:85
-54                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-54-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/cbb8d895330175c66f484dbd52da7eda/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:21:17-111
-55                android:value="com.google.firebase.components.ComponentRegistrar" />
-55-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/cbb8d895330175c66f484dbd52da7eda/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:22:17-82
-56        </service>
-57
-58        <activity
-58-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a7dfbb78c47d6fb61939251aeae30df0/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-59-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a7dfbb78c47d6fb61939251aeae30df0/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-60            android:exported="false"
-60-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a7dfbb78c47d6fb61939251aeae30df0/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-61-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/a7dfbb78c47d6fb61939251aeae30df0/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-62
-63        <provider
-63-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/24e06bc125a6a09316d44e6a0060ebc7/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-64            android:name="com.google.firebase.provider.FirebaseInitProvider"
-64-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/24e06bc125a6a09316d44e6a0060ebc7/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-65            android:authorities="com.lentimosystems.licio.covid19.firebaseinitprovider"
-65-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/24e06bc125a6a09316d44e6a0060ebc7/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:13:9-40
+27        <activity
+27-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:14:9-16:55
+28            android:name="com.lentimosystems.licio.covid19.TriviaActivity"
+28-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:16:13-43
+29            android:theme="@style/AppTheme2" />
+29-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:15:13-45
+30        <activity android:name="com.lentimosystems.licio.covid19.DiscoverActivity" />
+30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:9-54
+30-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:17:19-51
+31        <activity android:name="com.lentimosystems.licio.covid19.IntroActivity" >
+31-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:9-24:20
+31-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:18:19-48
+32            <intent-filter>
+32-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:17-69
+33-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:17-77
+35-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.lentimosystems.licio.covid19.MainActivity" />
+38-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:9-50
+38-->/home/licio/Documents/COVID19/app/src/main/AndroidManifest.xml:25:19-47
+39        <activity
+39-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+40            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+40-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+41            android:excludeFromRecents="true"
+41-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+42            android:exported="true"
+42-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+43            android:launchMode="singleTask"
+43-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+44            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+44-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+46
+47        <service
+47-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f937ab23baa247640b7ab329c3235541/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+52-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth:19.2.0] /home/licio/.gradle/caches/transforms-2/files-2.1/40c37991c80f3225efaafe31f033cd10/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e7ce63a5753541def31bebb3528cd940/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:20:13-22:85
+55                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+55-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e7ce63a5753541def31bebb3528cd940/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:21:17-111
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-firestore:21.4.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e7ce63a5753541def31bebb3528cd940/jetified-firebase-firestore-21.4.0/AndroidManifest.xml:22:17-82
+57        </service>
+58
+59        <provider
+59-->[com.squareup.picasso:picasso:2.71828] /home/licio/.gradle/caches/transforms-2/files-2.1/a06ca2b5d1deeffd8ed6a83dc49d9fdc/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+60            android:name="com.squareup.picasso.PicassoProvider"
+60-->[com.squareup.picasso:picasso:2.71828] /home/licio/.gradle/caches/transforms-2/files-2.1/a06ca2b5d1deeffd8ed6a83dc49d9fdc/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+61            android:authorities="com.lentimosystems.licio.covid19.com.squareup.picasso"
+61-->[com.squareup.picasso:picasso:2.71828] /home/licio/.gradle/caches/transforms-2/files-2.1/a06ca2b5d1deeffd8ed6a83dc49d9fdc/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+62            android:exported="false" />
+62-->[com.squareup.picasso:picasso:2.71828] /home/licio/.gradle/caches/transforms-2/files-2.1/a06ca2b5d1deeffd8ed6a83dc49d9fdc/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/316266b0a0150fb36d45705ce3f5bc88/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/316266b0a0150fb36d45705ce3f5bc88/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
 66            android:exported="false"
-66-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/24e06bc125a6a09316d44e6a0060ebc7/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-67            android:initOrder="100" />
-67-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/24e06bc125a6a09316d44e6a0060ebc7/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+66-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/316266b0a0150fb36d45705ce3f5bc88/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:17.1.0] /home/licio/.gradle/caches/transforms-2/files-2.1/316266b0a0150fb36d45705ce3f5bc88/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
 68
-69        <meta-data
-69-->[com.google.android.gms:play-services-basement:17.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/2c22b3d1fbb146f6148eeabd456b0518/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-70            android:name="com.google.android.gms.version"
-70-->[com.google.android.gms:play-services-basement:17.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/2c22b3d1fbb146f6148eeabd456b0518/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-71            android:value="@integer/google_play_services_version" />
-71-->[com.google.android.gms:play-services-basement:17.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/2c22b3d1fbb146f6148eeabd456b0518/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-72    </application>
-73
-74</manifest>
+69        <provider
+69-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f937ab23baa247640b7ab329c3235541/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+70            android:name="com.google.firebase.provider.FirebaseInitProvider"
+70-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f937ab23baa247640b7ab329c3235541/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+71            android:authorities="com.lentimosystems.licio.covid19.firebaseinitprovider"
+71-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f937ab23baa247640b7ab329c3235541/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+72            android:exported="false"
+72-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f937ab23baa247640b7ab329c3235541/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+73            android:initOrder="100" />
+73-->[com.google.firebase:firebase-common:19.3.0] /home/licio/.gradle/caches/transforms-2/files-2.1/f937ab23baa247640b7ab329c3235541/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:17.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e00b06338ce2377badfa5e79b6cc4220/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:17.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e00b06338ce2377badfa5e79b6cc4220/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:17.0.0] /home/licio/.gradle/caches/transforms-2/files-2.1/e00b06338ce2377badfa5e79b6cc4220/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+78    </application>
+79
+80</manifest>

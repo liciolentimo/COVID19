@@ -4,7 +4,7 @@
             "outputFile": "/home/licio/Documents/COVID19/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/19e07ef27262353bfade2175b3cb485a/core-1.2.0/res/values-v16/values-v16.xml",
+                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/a5c6bc057a19040ad9c11f575568963f/core-1.2.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/53af1f37d65227eb5bcf361cc28c52ea/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "source": "/home/licio/.gradle/caches/transforms-2/files-2.1/7532aa5abdd543d396828ff0ff43ae45/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

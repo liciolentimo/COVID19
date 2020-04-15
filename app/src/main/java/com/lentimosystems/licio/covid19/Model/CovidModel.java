@@ -34,9 +34,9 @@ public class CovidModel implements Serializable {
     @SerializedName("critical")
     @Expose
     public Integer critical;
-    @SerializedName("casesPerOneMillion")
+    @SerializedName("tests")
     @Expose
-    public float casesPerOneMillion;
+    public Integer tests;
     @SerializedName("deathsPerOneMillion")
     @Expose
     public float deathsPerOneMillion;
@@ -61,7 +61,7 @@ public class CovidModel implements Serializable {
      * @param todayCases
      * @param todayDeaths
      */
-    public CovidModel(String country, CountryInfo countryInfo, Integer cases, Integer todayCases, Integer deaths, Integer todayDeaths, Integer recovered, Integer active, Integer critical, float casesPerOneMillion, float deathsPerOneMillion) {
+    public CovidModel(String country, CountryInfo countryInfo, Integer cases, Integer todayCases, Integer deaths, Integer todayDeaths, Integer recovered, Integer active, Integer critical, Integer tests, float deathsPerOneMillion) {
         super();
         this.country = country;
         this.countryInfo = countryInfo;
@@ -72,7 +72,7 @@ public class CovidModel implements Serializable {
         this.recovered = recovered;
         this.active = active;
         this.critical = critical;
-        this.casesPerOneMillion = casesPerOneMillion;
+        this.tests = tests;
         this.deathsPerOneMillion = deathsPerOneMillion;
     }
 
@@ -148,12 +148,12 @@ public class CovidModel implements Serializable {
         this.critical = critical;
     }
 
-    public float getCasesPerOneMillion() {
-        return casesPerOneMillion;
+    public Integer getTests() {
+        return tests;
     }
 
-    public void setCasesPerOneMillion(float casesPerOneMillion) {
-        this.casesPerOneMillion = casesPerOneMillion;
+    public void setTests(Integer tests) {
+        this.tests = tests;
     }
 
     public float getDeathsPerOneMillion() {
