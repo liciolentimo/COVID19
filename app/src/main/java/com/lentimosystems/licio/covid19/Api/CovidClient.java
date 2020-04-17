@@ -13,7 +13,7 @@ public class CovidClient {
     public static Retrofit getInstance() {
         if (ourInstance == null)
             ourInstance = new Retrofit.Builder()
-                    .baseUrl("https://corona.lmao.ninja/")
+                    .baseUrl("https://corona.lmao.ninja/v2/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .build();
